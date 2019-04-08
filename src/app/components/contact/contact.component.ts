@@ -93,4 +93,9 @@ export class ContactComponent implements OnInit {
    * Only alerting for now
    */
 
+   processForm() {
+    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    alert(allInfo);
+  }
+
 }
