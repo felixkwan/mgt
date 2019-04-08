@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mgt-test": {
+    "mgt": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/mgt-test",
+            "outputPath": "dist/mgt",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,9 +23,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/flickity/dist/flickity.min.css",
+              "node_modules/featherlight/release/featherlight.min.css",
+              "src/assets/font/inter-ui.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/flickity/dist/flickity.pkgd.js",
+              "node_modules/isotope-layout/dist/isotope.pkgd.min.js",
+              "node_modules/imagesloaded/imagesloaded.pkgd.min.js",
+              "node_modules/gsap/src/uncompressed/TweenMax.js",
+              "node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js",
+              "node_modules/gsap/src/minified/TweenMax.min.js",
+              "node_modules/gsap/src/minified/TweenLite.min.js",
+              "node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js",
+              "node_modules/featherlight/release/featherlight.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -57,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "mgt-test:build"
+            "browserTarget": "mgt:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mgt-test:build:production"
+              "browserTarget": "mgt:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mgt-test:build"
+            "browserTarget": "mgt:build"
           }
         },
         "test": {
@@ -102,7 +116,7 @@
         }
       }
     },
-    "mgt-test-e2e": {
+    "mgt-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -111,11 +125,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mgt-test:serve"
+            "devServerTarget": "mgt:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mgt-test:serve:production"
+              "devServerTarget": "mgt:serve:production"
             }
           }
         },
@@ -131,5 +145,5 @@
       }
     }
   },
-  "defaultProject": "mgt-test"
+  "defaultProject": "mgt"
 }
