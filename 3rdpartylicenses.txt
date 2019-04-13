@@ -486,6 +486,9 @@ MIT
 @angular/router
 MIT
 
+ngx-spinner
+MIT
+
 @angular/forms
 MIT
 
