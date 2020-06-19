@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
   <footer class="footer">
       <div class="footer-link">
         <ul class="links">
-          <li><a href="https://www.facebook.com/felix.kwan.351"><i class="is-icon fb fab fa-facebook-square"></i></a></li>
-          <li><a href="https://twitter.com/FelixKwan101"><i class="is-icon twitter fab fa-twitter"></i></a></li>
+          <li><a href="https://www.facebook.com/"><i class="is-icon fb fab fa-facebook-square"></i></a></li>
+          <li><a href="https://twitter.com/"><i class="is-icon twitter fab fa-twitter"></i></a></li>
           <li><a href="https://www.dribbble.com/felixkwan"><i class="is-icon dribbble fab fa-dribbble"></i></a></li>
           <li><a routerLink="/privacy">Privacy Policy</a></li>
           <li><a routerLink="/terms">Terms & Conditions</a></li>
