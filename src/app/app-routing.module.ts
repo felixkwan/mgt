@@ -30,7 +30,7 @@ const routes: Routes = [
     path: 'terms',
     pathMatch: 'full',
     component: TermsComponent
-  }
+  },
 ];
 
 @NgModule({

@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import * as $ from 'jquery';
-import { RouterOutlet } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 import { TweenMax, TimelineLite, Power2, Elastic, CSSPlugin, TimelineMax } from "gsap/all";
+import { GoogleAnalyticsService } from './google-analytics.service';
+
 declare let ScrollMagic: any;
 declare let TweenMax: any;
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +27,13 @@ declare let TweenMax: any;
   styles: ['']
 })
 export class AppComponent {
+  
   title = 'mgt';
+
+  constructor(
+    private router: Router,
+    private googleAnalyticsService: GoogleAnalyticsService
+  ) {}
 
   public ngOnInit()
   {
@@ -53,6 +62,15 @@ export class AppComponent {
       .addTo(controller);
 
     })
+
+    // googleAnalytics tracking
+    this.router.events
+      .pipe(
+        filter(event => event instanceof NavigationEnd)
+      )
+      .subscribe((params: any) => {
+        this.googleAnalyticsService.sendPageView(params.url);
+      });
   }
 
 }
