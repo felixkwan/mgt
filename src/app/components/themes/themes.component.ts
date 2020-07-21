@@ -195,7 +195,7 @@ declare let TweenMax: any;
 
           <figure class="theme-preview">
           <a href="#" class="featherlight-image" data-featherlight="#hachi">
-            <img class="theme-thumb" src="assets/img/theme-thumb-hachi.jpg" alt="">
+            <img class="theme-thumb" src="assets/img/hachi-1440.jpg" alt="">
             </a>
             <div id="hachi" class="light-box">
               <img class="theme-image" src="assets/img/hachi/scr-1.png" alt="">
