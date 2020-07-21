@@ -105,8 +105,8 @@ export class HomeComponent implements OnInit {
       const controller = new ScrollMagic.Controller();
 
       var header = new TimelineMax();
-      var fadeInLeft = TweenMax.staggerTo(".fadeInLeft", '.65', {css:{className:'+=loaded'}, ease: Power2.easeOut}, '.1');
-      var fadeInBottom = TweenMax.to(".fadeInBottom", '.65', {css:{className:'+=loaded'}, ease: Power2.easeOut}, '.1');
+      var fadeInLeft = TweenMax.staggerTo(".fadeInLeft", '.65', {css:{className:'+=loaded'}, delay: 1, ease: Power2.easeOut}, '.1');
+      var fadeInBottom = TweenMax.to(".fadeInBottom", '.65', {css:{className:'+=loaded'}, delay: 1.5, ease: Power2.easeOut}, '.1');
 
       header.add(fadeInLeft, 0).add(fadeInBottom, 0);
 
