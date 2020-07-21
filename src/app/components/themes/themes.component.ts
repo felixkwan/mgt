@@ -239,7 +239,7 @@ declare let TweenMax: any;
 
           <figure class="theme-preview">
           <a href="#" class="featherlight-image" data-featherlight="#raginsk">
-            <img class="theme-thumb" src="assets/img/riginsk-1440.png" alt="">
+            <img class="theme-thumb" src="assets/img/raginsk-1440.png" alt="">
             </a>
             <div id="raginsk" class="light-box">
               <img class="theme-image" src="assets/img/sawano/scr-1.png" alt="">
