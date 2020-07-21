@@ -225,7 +225,7 @@ declare let TweenMax: any;
               <img class="theme-image" src="assets/img/sawano/scr-3.png" alt="">
               <h2 class="theme-title is-bold"><a href="https://sawano-theme.tumblr.com">Sawano</a></h2>
               <p class="feature-detail">
-                Clean and responsive layout 
+                Clean and responsive layout for classic blogging.
                </p>
             </div>
           </figure>
@@ -283,7 +283,7 @@ export class ThemesComponent implements OnInit {
         const controller = new ScrollMagic.Controller();
 
         var timeline = new TimelineMax();
-        var active = TweenMax.staggerTo(".theme", '.65', {css:{className:'+=active'}, ease: Power2.easeOut}, '.25');
+        var active = TweenMax.staggerTo(".theme", 0.65, {css:{className:'+=active'}, ease: Power2.easeOut}, 0.25);
 
         timeline.add(active, 0);
 
