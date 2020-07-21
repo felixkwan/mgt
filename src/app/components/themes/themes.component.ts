@@ -242,10 +242,10 @@ declare let TweenMax: any;
             <img class="theme-thumb" src="assets/img/raginsk-1440.png" alt="">
             </a>
             <div id="raginsk" class="light-box">
-              <img class="theme-image" src="assets/img/sawano/scr-1.png" alt="">
-              <img class="theme-image" src="assets/img/sawano/scr-2.png" alt="">
-              <img class="theme-image" src="assets/img/sawano/scr-3.png" alt="">
-              <img class="theme-image" src="assets/img/sawano/scr-4.png" alt="">
+              <img class="theme-image" src="assets/img/raginsk/scr-1.png" alt="">
+              <img class="theme-image" src="assets/img/raginsk/scr-2.png" alt="">
+              <img class="theme-image" src="assets/img/raginsk/scr-3.png" alt="">
+              <img class="theme-image" src="assets/img/raginsk/scr-4.png" alt="">
               <h2 class="theme-title is-bold"><a href="https://raginsk.tumblr.com">Raginsk</a></h2>
               <p class="feature-detail">
                 Excellent quality theme on every devices. Highly customisable for your-own-style blog.
