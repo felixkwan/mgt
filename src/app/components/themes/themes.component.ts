@@ -213,6 +213,52 @@ declare let TweenMax: any;
           </div>
         </article>
 
+        <article class="grid-item theme">
+
+          <figure class="theme-preview">
+          <a href="#" class="featherlight-image" data-featherlight="#sawano">
+            <img class="theme-thumb" src="assets/img/theme-thumb-hachi.jpg" alt="">
+            </a>
+            <div id="sawano" class="light-box">
+              <img class="theme-image" src="assets/img/sawano/scr-1.png" alt="">
+              <img class="theme-image" src="assets/img/sawano/scr-2.png" alt="">
+              <img class="theme-image" src="assets/img/sawano/scr-3.png" alt="">
+              <h2 class="theme-title is-bold"><a href="https://sawano-theme.tumblr.com">Sawano</a></h2>
+              <p class="feature-detail">
+                Clean and responsive layout 
+               </p>
+            </div>
+          </figure>
+
+          <div class="theme-caption">
+            <h2 class="theme-title is-bold"><a href="https://sawano-theme.tumblr.com">Sawano</a></h2>
+          </div>
+        </article>
+
+        <article class="grid-item theme">
+
+          <figure class="theme-preview">
+          <a href="#" class="featherlight-image" data-featherlight="#raginsk">
+            <img class="theme-thumb" src="assets/img/theme-thumb-hachi.jpg" alt="">
+            </a>
+            <div id="raginsk" class="light-box">
+              <img class="theme-image" src="assets/img/sawano/scr-1.png" alt="">
+              <img class="theme-image" src="assets/img/sawano/scr-2.png" alt="">
+              <img class="theme-image" src="assets/img/sawano/scr-3.png" alt="">
+              <img class="theme-image" src="assets/img/sawano/scr-4.png" alt="">
+              <h2 class="theme-title is-bold"><a href="https://raginsk.tumblr.com">Raginsk</a></h2>
+              <p class="feature-detail">
+                Excellent quality theme on every devices. Highly customisable for your-own-style blog.
+               </p>
+            </div>
+          </figure>
+
+          <div class="theme-caption">
+            <h2 class="theme-title is-bold"><a href="https://raginsk.tumblr.com">Raginsk</a></h2>
+          </div>
+        </article>
+        
+
         </div>
         </section>
       </section>

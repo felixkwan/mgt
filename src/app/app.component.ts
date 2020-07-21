@@ -41,7 +41,7 @@ export class AppComponent {
       const controller = new ScrollMagic.Controller();
 
       var tl = new TimelineMax();
-      var active = TweenMax.to(".contact-wrap", '.65', {css:{className:'+=active'}, ease: Power2.easeOut}, '.1');
+      var active = TweenMax.to(".contact-wrap", '.65', {css:{className:'+=active'}, ease: Power2.easeOut, delay: 0.5}, '.1');
 
       tl.add(active, 0);
 
@@ -53,11 +53,11 @@ export class AppComponent {
     $(function () {const controller = new ScrollMagic.Controller();
 
     var timeline = new TimelineMax();
-    var fadeInTop = TweenMax.to(".fadeInTop", '.85', {css:{className:'+=loaded'}, ease: Power2.easeOut}, '.25');
+    var fadeInTop = TweenMax.to(".fadeInTop", '.85', {css:{className:'+=loaded'}, ease: Power2.easeOut, delay: 0.5}, '.25');
 
     timeline.add(fadeInTop, 0);
 
-    var scene = new ScrollMagic.Scene({triggerElement: ".indexpage", offset: -100, reverse: true})
+    var scene = new ScrollMagic.Scene({triggerElement: ".indexpage", offset: -100, delay: 1, reverse: true})
       .setTween(timeline)
       .addTo(controller);
 

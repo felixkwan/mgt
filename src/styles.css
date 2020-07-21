@@ -126,7 +126,7 @@
 
     .home {
       background: white;
-      padding-top: 80px;
+      padding-top: 3.5rem;
     }
 
     .fadeInLeft {
@@ -164,14 +164,14 @@
     }
 
     .description {
-      font-size: 1rem;
-      margin-top: 12px;
+      font-size: 1.25rem;
+      margin-top: .5rem;
       font-family: 'Inter UI', 'Helvetica', sans-serif;
-      max-width: 375px;
+      max-width: 484px;
     }
 
     .description p {
-      line-height: 1.8rem;
+      line-height: 2rem;
     }
 
     .scroll-down {

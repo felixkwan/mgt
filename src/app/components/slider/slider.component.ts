@@ -13,6 +13,17 @@ import * as imagesLoaded from 'imagesloaded';
       <div class="themes-wrap">
         <div class="main-carousel">
 
+          <!-- Raginsk -->
+          <div class="carousel-cell">
+            <figure class="theme-preview">
+              <img class="theme-thumb" src="assets/img/raginsk-1440.png">
+            </figure>
+            <div class="theme-caption">
+              <h3 class="theme-title is-bold"><a href="https://raginsk.tumblr.com">Raginsk</a></h3>
+              <p class="caption on-tumblr"><a href="https://www.tumblr.com/theme/41125">Available</a> on Tumblr</p>
+            </div>
+          </div>
+
           <!-- Forsa -->
           <div class="carousel-cell">
             <figure class="theme-preview">
@@ -108,6 +119,17 @@ import * as imagesLoaded from 'imagesloaded';
             <div class="theme-caption">
               <h3 class="theme-title is-bold"><a href="https://kyuu-theme.tumblr.com">Kyuu</a></h3>
               <p class="caption on-tumblr"><a href="https://www.tumblr.com/theme/41013">Available</a> on Tumblr</p>
+            </div>
+          </div>
+
+          <!-- Sawano -->
+          <div class="carousel-cell">
+            <figure class="theme-preview">
+              <img class="theme-thumb" src="assets/img/sawano-1440.png">
+            </figure>
+            <div class="theme-caption">
+              <h3 class="theme-title is-bold"><a href="https://sawano-theme.tumblr.com">Sawano</a></h3>
+              <p class="caption on-tumblr"><a href="https://www.tumblr.com/theme/41039">Available</a> on Tumblr</p>
             </div>
           </div>
         </div>
